@@ -7,11 +7,10 @@
 
 
 const findLongestWords = (str)=>{
-    newStr=str.split(" ") //split the string between spaces
+    newStr1=str.trim()
+    newStr=newStr1.split(" ") //split the string between spaces
     newStr.sort((a,b)=>a.length-b.length) // You can reverse it too like (b.length-a.length)
     return (newStr[newStr.length-1]) //return the last element.
 }
 
-
-
-console.log(findLongestWords("The longest word here is googooogle.com"))
+console.log(findLongestWords("         The longest word here is googooogle.com"))
