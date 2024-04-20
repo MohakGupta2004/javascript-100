@@ -2,10 +2,10 @@
 // a string indicating the type of triangle: "equilateral", "isosceles", or "scelene"
 
 const checkTriangleType = (a,b,c)=>{
-    if(a==b && b==c){
-        return "equilateral"
+    if(a==b && b==c){ //checking if three sides are equal or not
+        return "equilateral" //equilateral
     }
-    else if(a==b || a==c || b==c){
+    else if(a==b || a==c || b==c){ // checking if the two of the sides are equal or not
         return "isosceles"
     }
     else{
