@@ -1,4 +1,4 @@
-//Write a factorial function
+//Write a factorial f
 
 
 const factorial = (n)=>{

@@ -14,4 +14,4 @@ const arraysAreEqual = (arr1,arr2)=>{
     }
     return false
 }
-console.log(arraysAreEqual([],[]))
+console.log(arraysAreEqual([1,4,3],[1,2,3]))
